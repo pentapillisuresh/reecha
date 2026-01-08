@@ -300,9 +300,9 @@ const Hero = () => {
             >
               <div className="space-y-10">
                 <div className="space-y-6">
-                  <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium border border-white/20">
+                  {/* <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium border border-white/20">
                     AI Powered Social Platform
-                  </div>
+                  </div> */}
                   
                   <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                     {item.title}

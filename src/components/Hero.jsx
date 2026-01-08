@@ -308,11 +308,11 @@ const Hero = () => {
                     {item.title}
                   </h1>
 
-                  <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-purple-300">
+                  <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-white-300">
                     {item.subtitle}
                   </h2>
 
-                  <p className="text-lg md:text-xl text-gray-300 max-w-xl mx-auto leading-relaxed">
+                  <p className="text-lg md:text-xl text-white-300 max-w-xl mx-auto leading-relaxed">
                     {item.description}
                   </p>
                 </div>

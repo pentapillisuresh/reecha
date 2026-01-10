@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaApple, FaGooglePlay } from 'react-icons/fa';
 
 const HowItWorks = () => {
   const steps = [
@@ -134,18 +135,14 @@ const HowItWorks = () => {
           <p className="text-gray-600 mb-4">Get started today</p>
           <div className="flex justify-center gap-4">
             <button className="flex items-center space-x-3 px-5 py-3 rounded-lg bg-black text-white transition-all duration-300 hover:scale-105 shadow-lg">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M14.94 5.19A4.38 4.38 0 0 0 16 2a4.44 4.44 0 0 0-3 1.52 4.17 4.17 0 0 0-1 3.09 3.69 3.69 0 0 0 2.94-1.42zm2.52 7.44a4.51 4.51 0 0 1 2.16-3.81 4.66 4.66 0 0 0-3.66-2c-1.56-.16-3 .91-3.83.91s-2-.89-3.3-.87a4.92 4.92 0 0 0-4.14 2.53C2.93 12.45 4.24 17 6 19.47c.8 1.21 1.8 2.58 3.12 2.53s1.75-.76 3.28-.76 2 .76 3.3.73 2.22-1.24 3.06-2.45a11 11 0 0 0 1.38-2.85 4.41 4.41 0 0 1-2.68-4.04z" />
-              </svg>
+              <FaApple className="w-6 h-6" />
               <div className="text-left">
                 <div className="text-xs text-gray-400">Download on the</div>
                 <div className="font-semibold">App Store</div>
               </div>
             </button>
             <button className="flex items-center space-x-3 px-5 py-3 rounded-lg bg-black text-white transition-all duration-300 hover:scale-105 shadow-lg">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M3 20.5V3.5C3 2.67 3.67 2 4.5 2h15c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-15c-.83 0-1.5-.67-1.5-1.5zm6-10.5l4.5 3-4.5 3V10z" />
-              </svg>
+              <FaGooglePlay className="w-5 h-5" />
               <div className="text-left">
                 <div className="text-xs text-gray-400">Get it on</div>
                 <div className="font-semibold">Google Play</div>
